@@ -12,6 +12,7 @@ def selectdata():
     for row in values:
         print("id ", row[0])
         print("name", row[1])
+        print("name", row[2])
     print("信息已查出.")
     conn.close()
     connect.close()
