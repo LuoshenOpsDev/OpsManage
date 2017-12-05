@@ -8,7 +8,7 @@ cursor = connect.cursor()
 
 
 def selectdata():
-    values = cursor.execute('select * from user where appname = ' + "'" + message + "'")
+    values = cursor.execute('select * from app where appname = ' + "'" + message + "'")
     for row in values:
         print("id ", row[0])
         print("name", row[1])
