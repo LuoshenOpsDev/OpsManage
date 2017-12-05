@@ -14,7 +14,8 @@ def selectdata():
         print("name", row[1])
         print("name", row[2])
     print("信息已查出.")
-    conn.close()
+    cursor.close()
     connect.close()
+
 
 selectdata()
